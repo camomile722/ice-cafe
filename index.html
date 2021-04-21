@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My sweet Paradeis | Eis Cafe in Hamburg</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,500,600,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!---HEADER--------->
+
+    <div class="header">
+
+      <div class="top-header">
+
+        <div class="top-icon-box">
+          <div class="header-icons">
+            <i class="fa fa-user"></i>
+            <i class="fa fa-shopping-cart"></i>
+          </div>
+          <div class="social sm">
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook-f"></i>
+          </div>
+        </div>
+
+        <div class="logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="follow-text">
+          <a href="#">follow us</a>
+        </div>
+
+      </div>
+
+      <div class="search-navigation-social">
+
+        <div class="search">
+          <form class="search-form" action="index.html" method="post">
+            <input type="search" name="search" value="" placeholder="Search...">
+            <i class="fa fa-search"></i>
+          </form>
+        </div>
+
+        <div class="nav-icon">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <div class="navigation">
+
+          <ul>
+            <li><a class="active-menu" href="index.html">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li class="sub-nav"><a>Eis-Workshops <i class="fa fa-caret-down"></a></i></li>
+            <ul id="sub-nav-box">
+              <li><a href="#">Workshop für Erwachsene</a></li>
+              <li><a href="workshop.html">Workshop für Kinder und Teenager</a></li>
+              <li><a href="workshop-anmeldung.html">Workshop Anmeldung</a></li>
+            </ul>
+
+            <li><a href="#">Kontakte</a></li>
+          </ul>
+
+        </div>
+
+        <div class="social">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook-f"></i>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--SLIDER------->
+
+    <div class="slide-container">
+
+      <div class="slide-images">
+
+        <img class="active fade" src="img/1.png" alt="young-couple-with-icecream" data-index="0" data-caption="Es ist lecker bei uns ;)">
+        <img class="fade" src="img/2.png" alt="" data-index="1" data-caption="Angenehmes Atmosphäre">
+        <img class="fade" src="img/3.png" alt="" data-index="2" data-caption="Vielfältige Eis Workshops">
+        <img class="fade" src="img/4.png" alt="" data-index="3" data-caption="Nur naturbelassene Produkte">
+
+      </div>
+
+      <div class="controls">
+        <button class="prev" type="button" name="button">&#10094;</button>
+        <button class="next" type="button" name="button">&#10095;</button>
+        <button class="pause"type="button" name="button"><i class="fa fa-pause"></i></button>
+        <button class="play"type="button" name="button"><i class="fa fa-play"></i></button>
+      </div>
+
+      <div class="caption">
+        <p>Caption</p>
+      </div>
+
+    </div>
+
+    <div class="dots-box">
+
+      <div class="dots active" data-index="0">
+      </div>
+      <div class="dots" data-index="1">
+      </div>
+      <div class="dots" data-index="2">
+      </div>
+      <div class="dots" data-index="3">
+      </div>
+    </div>
+
+    <!--SECTION 1---->
+    <div class="section1-box">
+      <div class="text-section1">
+
+        <h2>Eis Paradies</h2>
+        <p>Ob in der Eisdiele gegenüber oder
+          gemütlich auf der Terrasse: Im
+          Durchschnitt isst jeder Deutsche fast acht
+          Liter Eis jährlich.
+        </p>
+      </div>
+      <div class="section1-bg">
+        <div class="button">
+          <button type="button" name="button">wähle deinen geschmack</button>
+        </div>
+      </div>
+    </div>
+    <!--SECTION2-->
+
+    <div class="section2">
+      <div class="section2-content">
+        <h2>Wie schmeckt ein echtes Eis?</h2>
+        <p>Ob am Stiel, in der Waffel oder als Riegel: Die Deutschen lieben Eis.
+          Aber sowohl der Geschmack als auch die Qualität müssen stimmen –
+          doch woran erkennt man gutes Eis . Unser Eis ist das Beste, das Sie
+          unbedingt probieren sollen!
+        </p>
+        <button type="button" name="button">tisch reservieren</button>
+      </div>
+    </div>
+
+    <!--GALLERY-->
+
+    <div class="gallery-container">
+
+      <h1>Unsere Eis galerie</h1>
+
+      <!-- THUMB_IMAGES  -------------------------------------------------->
+      <div class="row">
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/person_with_ice_cream_thumb.jpg" data-caption="Person with Ice Cream" data-index="0" alt="Person with Ice Cream">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/holding-strawberry-ice-cream_thumb.jpg" data-caption="Strawberry flavour" data-index="1" alt="Strawberry flavour">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/cream-ice-cream-in-cone_thumb.jpg" data-caption="Cream Ice Cream in cone" data-index="2" alt="Cream Ice Cream in cone">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/brown-ice-cream-cones_thumb.jpg" data-caption="Brown cones" data-index="3" alt="Brown cones">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/holding-ice-cream_thumb.jpg" data-caption="Holding Ice Cream" data-index="4" alt="Holding Ice Cream">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/girl-with-an-ice-cream_thumb.jpg" data-caption="Girl with an Ice Cream" data-index="5" alt="Girl with an Ice Cream">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/berries_thumb.jpg" data-caption="Berries" data-index="6" alt="Berries">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/dog_thumb.jpg" data-caption="Dog loves Ice Cream" data-index="7" alt="Dog loves Ice Cream">
+        </div>
+
+        <div class="column image-thumb-zoom">
+          <img src="img-gallery/assorted-flavor-ice-cream_thumb.jpg" data-caption="Assorted flavor" data-index="8" alt="Assorted flavor">
+        </div>
+
+      </div>
+
+      <!---Modal WINDOW---------------------------------->
+
+      <div class="modal-window">
+
+        <div class="modal-window-content">
+
+          <div class="modal-image-box">
+            <!--Modal Image -->
+            <img class="modal-image " alt="">
+
+            <!-- Slide Number -->
+            <div class="slide-number">1/4</div>
+
+            <!-- Next/previous controls -->
+            <button class="prev-modal">&#10094;</button>
+            <button class="next-modal">&#10095;</button>
+
+            <!-- Caption text -->
+            <div class="caption-modal">Caption</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!---FOOTER--->
+
+    <div class="footer">
+
+      <div class="contacts">
+        <h3>Kontakte</h3>
+        <p>Bekkamp straße 1 </br>
+          22172 Hamburg
+        </p>
+        <p class="phone"><span>040 2283 3333</span></p>
+
+        <div class="social">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-facebook-f"></i>
+        </div>
+
+        <div class="follow-text">
+          <a href="#">follow us</a>
+        </div>
+
+      </div>
+
+      <div class="time-table">
+        <h3>Öffnungszeiten</h3>
+        <p><span>Montag - Samstag</span><br>
+          9:00 - 19:00 <br>
+          <span>Sonntag:</span><br>
+          10:00 - 19:00
+        </p>
+
+      </div>
+
+    </div>
+    <div class="footer-line">
+      <p> &copy;2020 by My sweet Paradeis</p>
+    </div>
+
+  </div>
+
+
+  <script src="js/slide-show.js" charset="utf-8"></script>
+  <script src="js/gallery.js" charset="utf-8"></script>
+  <script src="js/navigation.js" charset="utf-8"></script>
+
+</body>
+
+</html>
