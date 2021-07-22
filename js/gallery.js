@@ -33,7 +33,27 @@ for (var i = 0; i < allThumbImages.length; i++) {
 
     showModal(imageIndex);
 
+    nextButton.addEventListener('click', function() {
+      imageIndex++;
+      if (imageIndex >= allThumbImages.length) imageIndex = 0;
+
+      showModal(imageIndex);
+      slideNumber.innerHTML = (imageIndex + 1) + ' / ' + allThumbImages.length
+
+      //console.log(imageIndex);
+      //console.log(allThumbImages.length);
+    });
+
+    prevButton.addEventListener('click', function() {
+      imageIndex--;
+      if (imageIndex < 0) imageIndex = allThumbImages.length - 1;
+      showModal(imageIndex);
+      slideNumber.innerHTML = (imageIndex + 1) + ' / ' + allThumbImages.length
+      
+    });
+
   });
+ 
 }
 
 //------Close modal window ---------------------
@@ -48,16 +68,3 @@ modalWindow.addEventListener('click', function(evt) {
     modalWindow.classList.remove('active');
 });
 
-//--------Next button------
-nextButton.addEventListener('click', function() {
-  activeImage++;
-  if (activeImage >= allThumbImages.length) activeImage = 0;
-  showModal(activeImage);
-});
-
-//--------Prev button------
-prevButton.addEventListener('click', function() {
-  activeImage--;
-  if (activeImage < 0) activeImage = allThumbImages.length - 1;
-  showModal(activeImage);
-});
