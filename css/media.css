@@ -142,8 +142,10 @@
 
   /* ------ section 1 --------- */
   .button button {
-    left: 15%;
-  }
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+  } 
 
    .text-section1 {
     position: relative;
@@ -407,9 +409,11 @@
   }
 
   /* ------ section 1 --------- */
-  .button button {
-    left: 30%;
-  }
+   .button button {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+  } 
 
    .text-section1 {
     position: relative;
@@ -520,9 +524,9 @@
   font-size: 60px;
   padding-left: 20px;
   }
-  .button button{
+   .button button{
     left: 5%;
-  }
+  } 
   .footer {
     display: flex;
     justify-content: space-around;
@@ -535,9 +539,9 @@
     font-size: 60px;
     padding-left: 20px;
     }
-    .button button{
+     .button button{
       left: 5%;
-    }
+    } 
   .footer {
     display: flex;
     justify-content: space-around;
@@ -688,9 +692,9 @@
   position: absolute;
 }
 
-.button button{
-  left: 10%;
-}
+ .button button{
+  left: 7%;
+} 
 
 .footer {
   display: flex;
