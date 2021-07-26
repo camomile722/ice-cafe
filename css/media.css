@@ -78,6 +78,9 @@
   }
 
   /*------------------------Seite 1--------------------------*/
+  .section1-bg{
+    background-position: center;
+  }
   /*-------SLIDE*---------*/
   .caption {
     font-size: 45px;
@@ -324,6 +327,9 @@
   }
 
   /*------------------------Seite 1--------------------------*/
+  .section1-bg{
+    background-position: center;
+  }
   /*-------SLIDE*---------*/
   .caption {
     font-size: 45px;
