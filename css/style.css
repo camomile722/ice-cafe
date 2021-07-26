@@ -372,7 +372,11 @@ i.fa.fa-search {
 /*-------------------SECTION1--------------*/
  .section1-box {
   position: relative;
-} 
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 /* .section1-bg {
   background-image: url('../img/img12.jpg');
@@ -424,9 +428,8 @@ i.fa.fa-search {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: right;
-  max-width: 1200px;
+  width: 1200px;
   height: 400px;
-  position: relative;
 }
 
 /*-------------SECTION2----------------------------*/
