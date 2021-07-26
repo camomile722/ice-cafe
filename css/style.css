@@ -388,7 +388,7 @@ i.fa.fa-search {
   position: absolute;
   z-index: 1;
   top: 45%;
-  left: 10%;
+  left: 13%;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 15px;
   text-transform: uppercase;
@@ -448,8 +448,7 @@ i.fa.fa-search {
 
 .section2-content button {
   background-color: #fff;
-  width: 255px;
-  height: 50px;
+  padding: 10px 20px;
   text-transform: uppercase;
   border: none;
   color: #616161;
@@ -578,27 +577,25 @@ i.fa.fa-search {
 
 .modal-window-content {
   position: relative;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 .modal-image-box {
-  height: 800px;
-  max-width: 1200px;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
 
 .modal-image {
-  max-width: 1200px;
+  max-width: 100%;
+  height: 80vh;
   margin-bottom: -4px;
 }
 
 .slide-number {
   position: absolute;
   top: 0;
-  left: -10%;
+  left: 0;
   padding: 10px;
   font-size: 24px;
   color: #fff;
@@ -627,11 +624,11 @@ i.fa.fa-search {
 }
 
 .next-modal {
-  right: -10%;
+  right: 5%;
 }
 
 .prev-modal {
-  left: -10%;
+  left: 5%;
 }
 
 .next-modal:hover, .prev-modal:hover {
@@ -788,11 +785,20 @@ h3 {
 .workshop2-box {
   background-color: #ffffcc;
 }
-
-.workshop1, .workshop2 {
-  height: 352px;
-  overflow: hidden;
+.workshop1{
+  background-image:url("../img/ice-workshop-teenager.png");
 }
+.workshop2{
+  background-image:url("../img/ice-workshop-kinder.png");
+}
+.workshop1, .workshop2 {
+  height:352px;
+  overflow: hidden;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
 
 .price a {
   color: red;

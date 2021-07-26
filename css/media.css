@@ -67,7 +67,6 @@
   }
   .navigation.active li a {
     padding: 10px;
-    font-size: 40px;
   }
 
 
@@ -176,7 +175,8 @@
 
   /*------SECTION2------------*/
   .workshop-section2 {
-    margin-top: 80px;
+    width: 90%;
+    margin: 80px auto;
   }
 
  .workshop-box{
@@ -185,7 +185,7 @@
  }
 
   .workshop1, .workshop2 {
-    height: auto;
+    height: 352px;
   }
 
   .workshop1-box, .workshop2-box {
@@ -206,6 +206,7 @@
 
   .workshop1-box p, .workshop2-box p {
     padding: 0px 50px 50px;
+    font-size: 28px;
   }
 
   .sale {
@@ -247,7 +248,10 @@
 
 /* Iphones */
  @media screen and (min-device-width: 320px) and (max-device-width: 767px){  
-  
+
+  body{
+    font-size: 30px;
+  }
   /* --------header -------------*/
   .container {
     padding-top: 0px;
@@ -261,6 +265,9 @@
     padding: 20px;
     justify-content: space-between;
   }
+  .header-icons i, .social i {
+    font-size: 45px;
+  }
   .logo {
     text-align: center;
   }
@@ -270,6 +277,10 @@
   .social.sm {
     display: block;
   }
+  .search{
+    width:90%;
+    padding:20px;
+  }
   .search-navigation-social {
     flex-direction: column;
     justify-content: center;
@@ -278,8 +289,15 @@
     display: none;
   }
   .search input {
-    width: 400px;
+    width: 100%;
     text-align: center;
+    padding: 15px;
+  }
+  ::placeholder {
+    font-size: 28px;
+  }
+  i.fa.fa-search {
+    font-size: 28px;
   }
   .nav-icon {
     display: flex;
@@ -337,9 +355,7 @@
   }
   /*-------GALLERY--------*/
   .modal-image {
-    max-width: 400px;
-    margin-bottom: -4px;
-    max-height: 300px;
+    max-width: 90%;
   }
   .slide-number {
     top: 0;
@@ -352,10 +368,10 @@
     right: 0;
   }
   .prev-modal, .next-modal {
-    top: 15%;
+    top: 45%;
   }
   .caption-modal {
-    bottom: 50%;
+    bottom: -10%;
   }
   .row {
     /*max-width: 400px;*/
@@ -422,10 +438,14 @@
   .workshop-section1 {
     margin: 0;
   }
+  .text-workshop-section1{
+    font-size: 28px;
+  }
 
   /*------SECTION2------------*/
   .workshop-section2 {
-    margin-top: 80px;
+    width: 90%;
+    margin: 80px auto;
   }
 
  .workshop-box{
@@ -434,7 +454,7 @@
  }
 
   .workshop1, .workshop2 {
-    height: auto;
+    height: 352px;
   }
 
   .workshop1-box, .workshop2-box {
@@ -455,6 +475,7 @@
 
   .workshop1-box p, .workshop2-box p {
     padding: 0px 50px 50px;
+    font-size: 28px;
   }
 
   .sale {
@@ -484,7 +505,7 @@
   /*-------SEITE3------*/
   .form-container{
     left: 10%;
-    max-width: 400px;
+    max-width: 90%;
   }
   .check-form-group-box{
     flex-direction: column;
@@ -495,6 +516,13 @@
  }
 /* TABLETS */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .caption {
+  font-size: 60px;
+  padding-left: 20px;
+  }
+  .button button{
+    left: 5%;
+  }
   .footer {
     display: flex;
     justify-content: space-around;
@@ -503,6 +531,13 @@
 /* IPADS */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .caption {
+    font-size: 60px;
+    padding-left: 20px;
+    }
+    .button button{
+      left: 5%;
+    }
   .footer {
     display: flex;
     justify-content: space-around;
