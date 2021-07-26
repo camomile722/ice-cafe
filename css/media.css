@@ -79,6 +79,7 @@
   /*------------------------Seite 1--------------------------*/
   .section1-bg{
     background-position: center;
+    background-attachment: initial;
   }
   .section1-box{
     flex-direction:column;
@@ -179,9 +180,8 @@
   }
 
   /*------SECTION2------------*/
-  .workshop-section2 {
+  .workshop-section2-text {
     width: 90%;
-    margin: 80px auto;
   }
 
  .workshop-box{
@@ -352,6 +352,7 @@
   /*------------------------Seite 1--------------------------*/
   .section1-bg{
     background-position: center;
+    background-attachment: initial;
   }
   .section1-box{
     flex-direction:column;
@@ -453,10 +454,11 @@
   }
 
   /*------SECTION2------------*/
-  .workshop-section2 {
+
+  .workshop-section2-text {
     width: 90%;
-    margin: 80px auto;
   }
+
 
  .workshop-box{
    flex-direction: column;
@@ -494,6 +496,9 @@
 
   .price a {
     left: 1%
+  }
+  .paralax1, .paralax2{
+    background-attachment:initial;
   }
 
   /*----------SECTION3----------*/
@@ -860,4 +865,4 @@
   display: flex;
   justify-content: space-between;
 } 
-} 
+   } 
